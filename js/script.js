@@ -14,6 +14,6 @@ console.log('Gracz wpisał: ' + playerInput);
 
 if (playerInput == '1'){playerMove = 'kamień';}
 else if (playerInput == '2'){playerMove = 'papier';}
-else if (playerInput == '23'){playerMove = 'nożyce';}
+else if (playerInput == '3'){playerMove = 'nożyce';}
 
 printMessage('Twój ruch to: ' + playerMove);
